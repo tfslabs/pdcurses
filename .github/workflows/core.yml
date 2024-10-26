@@ -3,7 +3,7 @@ name: pdcurses core forking for GitHub Actions
 on:
   push:
     branches:
-      - no-available-just-rename-in-case-you-want
+      - 3.9
 
 permissions:
   contents: write
