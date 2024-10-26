@@ -19,7 +19,7 @@ jobs:
 
       - name: Obtain source code from downloads.sourceforge.net
         run: |
-          wget https://downloads.sourceforge.net/project/pdcurses/pdcurses/$PDCURSES_VERSION/PDCurses-3.9.tar.gz -O PDCurses-3.9.tar.gz
+          wget https://downloads.sourceforge.net/project/pdcurses/pdcurses/3.9/PDCurses-3.9.tar.gz -O PDCurses-3.9.tar.gz
 
       - name: Install Zstandard for Extraction
         run: sudo apt install -y xz-utils tar
